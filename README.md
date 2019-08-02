@@ -1,6 +1,7 @@
 ## How to use
 * **Purpose** - To demonstrate use of a very basic MVC Spring project
 
+
 #### Part 1 - Running the Program
 1. Begin by _cloning_ this project into your `~/dev` directory.
 2. Navigate to the newly _cloned_ project.
@@ -9,9 +10,19 @@
 4. Run the `MainApplication` to begin exposing _endpoints_ for a client to make _requests_ to.
  
 
+
+
+<hr>
+
 #### Part 2 - Viewing All `PersonRepository` Contents
 * From Postman, make a _get_ request to `localhost:8080/person/readAll`.
     * An empty list should return
+
+
+
+
+
+<hr>
 
 #### Part 3 - Creating a `Person`
 * From Postman, make a _post_ request to `localhost:8080/person/create` using the `JSON` body displayed below.
@@ -29,6 +40,15 @@
   "age": 30
 }
 ```
+
+
+
+
+
+
+
+
+<hr>
 
 #### Part 4 - Updating a `Person`
 * From Postman, make a _put_ request to `localhost:8080/person/update` using the `JSON` body displayed below.
@@ -55,6 +75,8 @@
 
 
 
+<hr>
+
 #### Part 5 - Reading a `Person` by ID
 * From Postman, make a _get_ request to `localhost:8080/person/read/1`.
     * ensure that a single object is returned rather than a list. 
@@ -63,6 +85,13 @@
 
 
 
+
+
+
+
+
+
+<hr>
 
 #### Part 6 - Deleting a `Person`
 * From Postman, make a _delete_ request to `localhost:8080/person/delete/1`
