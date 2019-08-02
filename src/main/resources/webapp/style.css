@@ -1,0 +1,15 @@
+img {
+    height: 100px; width: 200px; overflow: hidden;
+}
+
+
+
+.carousel-inner {
+  margin: 0 auto;
+}
+
+
+
+h2 {
+    text-align: center
+}
