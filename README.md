@@ -1,7 +1,5 @@
-# Serving Static Web Page
-* **Objective** - To demonstrate the a very simple web page statically from the `resources` directory local to the project
-
 ## How to use
+* **Purpose** - To demonstrate use of a very basic MVC Spring project
 
 #### Part 1 - Running the Program
 1. Begin by _cloning_ this project into your `~/dev` directory.
