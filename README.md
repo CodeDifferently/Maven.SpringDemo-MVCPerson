@@ -97,7 +97,7 @@
 * From Postman, make a _delete_ request to `localhost:8080/person/delete/1`
 * From Postman, make a _get_ request to `localhost:8080/person/read/1`.
     * ensure that the object has been deleted
-* The following response should be visible.
+* The following response is an example of what should be visible
 
 ```JSON
 {
